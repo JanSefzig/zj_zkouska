@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#obal{
+    
+    position: relative;
+    width: 1020px;
+    margin: auto;
+}
+
+
+.konec {
+font-size: 20px;
+color: black;
+}
+
+#hlavicka {
+    
+    background-image: url("img/header.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:10%;
+    padding: 10%;
+    background-position: right 0px;
+    background-color: white;
+}
+#hlavicka h1,h2 {
+    color: white;
+    
+
+}
+
+.textLeft  {
+    color : white;
+    text-align: center;
+    background: url(img/zelena.jpg); 
+    background-repeat: no-repeat;
+    padding-top: 17PX;
+    padding-left: 65px;
+    padding-right: 60px;
+    
+    }
+
+.me {
+
+    font-size: 20px;
+}
+
+#main {
+
+    font-size: 20px;
+    height: 800px;
+    width: 65%;
+    float: right;
+    text-align: center;
+    border : 1px solid black;
+    border-bottom-style: hidden;
+    
+
+}
+#main i {
+    color: white;
+    background: url(img/zelena.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+
+}
+
+#navigace  {
+    border: 1px solid grey;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    height: 800px;
+    width: 28%;
+    float: left;
+    list-style: none
+
+}
+
+
+#right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#paticka {
+   
+    height: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background : url(img/zelena.jpg);
+    position: relative;
+    
+}
+#paticka a {
+    color: white
+     
+}
+ul {
+    padding-left: 20px;
+}
